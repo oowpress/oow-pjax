@@ -1,0 +1,309 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: OOW PJAX\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-03-26 09:22+0000\n"
+"PO-Revision-Date: 2025-04-22 11:16+0000\n"
+"Last-Translator: \n"
+"Language-Team: Chinese (China)\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.7.2; wp-6.8\n"
+"X-Domain: oow-pjax"
+
+#: includes/class-oow-pjax.php:315
+msgid "About"
+msgstr "关于"
+
+#: includes/class-oow-pjax.php:74
+msgid "An error occurred while loading the page. Please try again."
+msgstr "加载页面时发生错误。请重试。"
+
+#: includes/class-oow-pjax.php:297
+#| msgid "OOWCODE"
+msgid "By OOWCODE"
+msgstr "OOWCODE"
+
+#: includes/class-oow-pjax.php:482
+msgid "Cache Lifetime (seconds)"
+msgstr "缓存有效期（秒）"
+
+#: includes/class-oow-pjax.php:331
+msgid ""
+"Configure the plugin in the \"Settings\" tab to define target containers, "
+"exclusions, and loader styles."
+msgstr "在“设置”选项卡中配置插件，以定义目标容器、排除项和加载器样式。"
+
+#: includes/class-oow-pjax.php:483
+msgid "Custom Events (space-separated)"
+msgstr "自定义事件（以空格分隔）"
+
+#: includes/class-oow-pjax.php:595
+msgid "Customize the loader appearance with CSS."
+msgstr "使用 CSS 自定义加载器外观。"
+
+#: includes/class-oow-pjax.php:300 includes/class-oow-pjax.php:400
+msgid "Dark Mode"
+msgstr "暗黑模式"
+
+#: includes/class-oow-pjax.php:583
+msgid "Display logs in the console."
+msgstr "在控制台显示日志。"
+
+#: includes/class-oow-pjax.php:329
+msgid "Displays a customizable loader during content loading."
+msgstr "在内容加载期间显示可自定义的加载器。"
+
+#: includes/class-oow-pjax.php:481
+msgid "Enable Cache"
+msgstr "启用缓存"
+
+#: includes/class-oow-pjax.php:565
+msgid "Enable caching for visited pages."
+msgstr "为访问过的页面启用缓存。"
+
+#: includes/class-oow-pjax.php:484
+msgid "Enable Debug Mode"
+msgstr "启用调试模式"
+
+#: includes/class-oow-pjax.php:491
+msgid "Enable Footer Scripts Execution"
+msgstr "启用页脚脚本执行"
+
+#: includes/class-oow-pjax.php:488
+msgid "Enable Form Handling"
+msgstr "启用表单处理"
+
+#: includes/class-oow-pjax.php:492
+msgid "Enable Inline Scripts Execution"
+msgstr "启用内联脚本执行"
+
+#: includes/class-oow-pjax.php:485
+msgid "Enable Loader"
+msgstr "启用加载器"
+
+#: includes/class-oow-pjax.php:489
+msgid "Enable Page-Specific Styles"
+msgstr "启用页面特定样式"
+
+#: includes/class-oow-pjax.php:476
+msgid "Enable PJAX"
+msgstr "启用 PJAX"
+
+#: includes/class-oow-pjax.php:607
+msgid ""
+"Enable PJAX handling for form submissions (comments, login, contact, etc.)."
+msgstr "为表单提交（评论、登录、联系等）启用 PJAX 处理。"
+
+#: includes/class-oow-pjax.php:537
+msgid "Enable PJAX navigation on the site."
+msgstr "在网站上启用 PJAX 导航。"
+
+#: includes/class-oow-pjax.php:490
+msgid "Enable Script Re-execution"
+msgstr "启用脚本重新执行"
+
+#: includes/class-oow-pjax.php:205
+msgid "Error loading content."
+msgstr "加载内容出错。"
+
+#: includes/class-oow-pjax.php:245
+msgid "Error submitting form."
+msgstr "提交表单出错。"
+
+#: includes/class-oow-pjax.php:543
+msgid "Example: #main .content .article"
+msgstr "示例：#main .content .article"
+
+#: includes/class-oow-pjax.php:549
+msgid "Example: .no-pjax #skip-link"
+msgstr "示例：.no-pjax #skip-link"
+
+#: includes/class-oow-pjax.php:577
+msgid "Example: pjax:before pjax:after"
+msgstr "示例：pjax:before pjax:after"
+
+#: includes/class-oow-pjax.php:479
+msgid "Exclude External Links"
+msgstr "排除外部链接"
+
+#: includes/class-oow-pjax.php:480
+msgid "Exclude Links with target=\"_blank\""
+msgstr "排除带有 target=\"_blank\" 的链接"
+
+#: includes/class-oow-pjax.php:478
+msgid "Exclude Selectors (space-separated)"
+msgstr "排除选择器（以空格分隔）"
+
+#: includes/class-oow-pjax.php:625
+msgid "Execute footer scripts during PJAX navigation."
+msgstr "在 PJAX 导航期间执行页脚脚本。"
+
+#: includes/class-oow-pjax.php:631
+msgid "Execute inline scripts during PJAX navigation."
+msgstr "在 PJAX 导航期间执行内联脚本。"
+
+#: includes/class-oow-pjax.php:333
+msgid "Explore now"
+msgstr "立即探索"
+
+#: includes/class-oow-pjax.php:326
+msgid ""
+"Fetches new content via AJAX and updates specified containers (e.g., #main)."
+msgstr "通过 AJAX 获取新内容并更新指定容器（例如 #main）。"
+
+#: includes/class-oow-pjax.php:323
+msgid "How It Works"
+msgstr "工作原理"
+
+#. Author URI of the plugin
+msgid "https://oowcode.com"
+msgstr "https://oowcode.com"
+
+#: includes/class-oow-pjax.php:613
+msgid ""
+"Inject page-specific stylesheets and inline styles during PJAX navigation."
+msgstr "在 PJAX 导航期间注入页面特定的样式表和内联样式。"
+
+#: includes/class-oow-pjax.php:325
+msgid "Intercepts internal link clicks and prevents full page reloads."
+msgstr "拦截内部链接点击并防止整页重新加载。"
+
+#: includes/class-oow-pjax.php:227
+msgid "Invalid form submission."
+msgstr "无效的表单提交。"
+
+#: includes/class-oow-pjax.php:300 includes/class-oow-pjax.php:400
+msgid "Light Mode"
+msgstr "明亮模式"
+
+#: includes/class-oow-pjax.php:486
+msgid "Loader CSS"
+msgstr "加载器 CSS"
+
+#: includes/class-oow-pjax.php:487
+msgid "Minimum Loader Duration (ms)"
+msgstr "最小加载器持续时间（毫秒）"
+
+#: includes/class-oow-pjax.php:601
+msgid "Minimum time the loader is visible (0 to disable)."
+msgstr "加载器显示的最短时间（0 表示禁用）。"
+
+#: includes/class-oow-pjax.php:169
+msgid "No URL provided."
+msgstr "未提供 URL。"
+
+#: includes/class-oow-pjax.php:294
+msgid "OOW"
+msgstr "OOW"
+
+#. Name of the plugin
+#: includes/class-oow-pjax.php:262
+msgid "OOW PJAX"
+msgstr "OOW PJAX"
+
+#: includes/class-oow-pjax.php:322
+msgid ""
+"OOW PJAX enhances your WordPress site by enabling a smoother navigation "
+"experience using PushState and AJAX (PJAX). Instead of full page reloads, it "
+"dynamically updates specific content areas, making your site feel faster and "
+"more responsive."
+msgstr ""
+"OOW PJAX 通过使用 PushState 和 AJAX（PJAX）提供更流畅的导航体验，从而增强您的 WordPress "
+"网站。它不会完全重新加载页面，而是动态更新特定内容区域，使您的网站感觉更快、更具响应性。"
+
+#: includes/class-oow-pjax.php:261
+msgid "OOW PJAX Settings"
+msgstr "OOW PJAX 设置"
+
+#. Author of the plugin
+msgid "oowpress"
+msgstr "oowpress"
+
+#: includes/class-oow-pjax.php:328
+msgid "Optionally caches pages to speed up subsequent visits."
+msgstr "可选地缓存页面以加速后续访问。"
+
+#: includes/class-oow-pjax.php:306
+msgid "Overview"
+msgstr "概览"
+
+#: includes/class-oow-pjax.php:295
+msgid "PJAX"
+msgstr "PJAX"
+
+#: includes/class-oow-pjax.php:321
+msgid "Plugin Overview"
+msgstr "插件概览"
+
+#: includes/class-oow-pjax.php:619
+msgid "Re-execute scripts within updated content areas."
+msgstr "在更新的内容区域内重新执行脚本。"
+
+#: includes/class-oow-pjax.php:595
+msgid "Reset to Default"
+msgstr "重置为默认"
+
+#: includes/class-oow-pjax.php:493
+msgid "Script Priority"
+msgstr "脚本优先级"
+
+#: includes/class-oow-pjax.php:164 includes/class-oow-pjax.php:220
+msgid "Security check failed. Invalid nonce."
+msgstr "安全检查失败。无效的 nonce。"
+
+#: includes/class-oow-pjax.php:637
+msgid ""
+"Set the priority for loading oow-pjax.js in the footer. Higher values (e.g., "
+"9999) load the script later."
+msgstr "设置页脚中加载 oow-pjax.js 的优先级。较高的值（例如 9999）会使脚本稍后加载。"
+
+#: includes/class-oow-pjax.php:309 includes/class-oow-pjax.php:336
+msgid "Settings"
+msgstr "设置"
+
+#: includes/class-oow-pjax.php:589
+msgid "Show a loading overlay during content loading."
+msgstr "在内容加载期间显示加载覆盖层。"
+
+#: includes/class-oow-pjax.php:312
+msgid "Support"
+msgstr "支持"
+
+#: includes/class-oow-pjax.php:477
+msgid "Target Containers (space-separated)"
+msgstr "目标容器（以空格分隔）"
+
+#: includes/class-oow-pjax.php:571
+msgid ""
+"Time in seconds before cached content expires (0 to disable expiration)."
+msgstr "缓存内容过期前的秒数（0 表示禁用过期）。"
+
+#. Description of the plugin
+#, fuzzy
+#| msgid ""
+#| "Turns a WordPress site into a PJAX (PushState + AJAX) experience without "
+#| "jQuery."
+msgid ""
+"Transforms a WordPress site into a PJAX (PushState + AJAX) experience "
+"without jQuery."
+msgstr "将 WordPress 网站转变为无需 jQuery 的 PJAX（PushState + AJAX）体验。"
+
+#: includes/class-oow-pjax.php:327
+msgid "Updates the browser URL using the History API for seamless navigation."
+msgstr "使用 History API 更新浏览器 URL 以实现无缝导航。"
+
+#: includes/class-oow-pjax.php:332
+msgid "View the Complete Documentation"
+msgstr "查看完整文档"
+
+#: includes/class-oow-pjax.php:333
+msgid ""
+"Want to dive deeper into OOW PJAX’s features or need detailed setup guides? "
+"Visit our comprehensive documentation for tutorials, examples, and advanced "
+"tips."
+msgstr "想深入了解 OOW PJAX 的功能或需要详细的设置指南？请访问我们的完整文档，获取教程、示例和高级提示。"

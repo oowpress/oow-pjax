@@ -1,0 +1,312 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: OOW PJAX\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-03-26 09:22+0000\n"
+"PO-Revision-Date: 2025-04-22 10:15+0000\n"
+"Last-Translator: \n"
+"Language-Team: Japanese\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.7.1; wp-6.7.2\n"
+"X-Domain: oow-pjax"
+
+#: includes/class-oow-pjax.php:315
+msgid "About"
+msgstr "について"
+
+#: includes/class-oow-pjax.php:74
+msgid "An error occurred while loading the page. Please try again."
+msgstr "ページの読み込み中にエラーが発生しました。もう一度お試しください。"
+
+#: includes/class-oow-pjax.php:297
+#, fuzzy
+#| msgid "OOWCODE"
+msgid "By OOWCODE"
+msgstr "OOWCODE"
+
+#: includes/class-oow-pjax.php:482
+msgid "Cache Lifetime (seconds)"
+msgstr "キャッシュの有効期間（秒）"
+
+#: includes/class-oow-pjax.php:331
+msgid ""
+"Configure the plugin in the \"Settings\" tab to define target containers, "
+"exclusions, and loader styles."
+msgstr ""
+"「設定」タブでプラグインを設定し、ターゲットコンテナ、除外、ローダーのスタイルを定義します。"
+
+#: includes/class-oow-pjax.php:483
+msgid "Custom Events (space-separated)"
+msgstr "カスタムイベント（スペース区切り）"
+
+#: includes/class-oow-pjax.php:595
+msgid "Customize the loader appearance with CSS."
+msgstr "CSSでローダーの外観をカスタマイズします。"
+
+#: includes/class-oow-pjax.php:300 includes/class-oow-pjax.php:400
+msgid "Dark Mode"
+msgstr "ダークモード"
+
+#: includes/class-oow-pjax.php:583
+msgid "Display logs in the console."
+msgstr "コンソールにログを表示します。"
+
+#: includes/class-oow-pjax.php:329
+msgid "Displays a customizable loader during content loading."
+msgstr "コンテンツの読み込み中にカスタマイズ可能なローダーを表示します。"
+
+#: includes/class-oow-pjax.php:481
+msgid "Enable Cache"
+msgstr "キャッシュを有効にする"
+
+#: includes/class-oow-pjax.php:565
+msgid "Enable caching for visited pages."
+msgstr "訪問したページのキャッシュを有効にします。"
+
+#: includes/class-oow-pjax.php:484
+msgid "Enable Debug Mode"
+msgstr "デバッグモードを有効にする"
+
+#: includes/class-oow-pjax.php:491
+msgid "Enable Footer Scripts Execution"
+msgstr "フッタースクリプトの実行を有効にする"
+
+#: includes/class-oow-pjax.php:488
+msgid "Enable Form Handling"
+msgstr "フォーム処理を有効にする"
+
+#: includes/class-oow-pjax.php:492
+msgid "Enable Inline Scripts Execution"
+msgstr "インラインスクリプトの実行を有効にする"
+
+#: includes/class-oow-pjax.php:485
+msgid "Enable Loader"
+msgstr "ローダーを有効にする"
+
+#: includes/class-oow-pjax.php:489
+msgid "Enable Page-Specific Styles"
+msgstr "ページ固有のスタイルを有効にする"
+
+#: includes/class-oow-pjax.php:476
+msgid "Enable PJAX"
+msgstr "PJAXを有効にする"
+
+#: includes/class-oow-pjax.php:607
+msgid ""
+"Enable PJAX handling for form submissions (comments, login, contact, etc.)."
+msgstr "フォーム送信（コメント、ログイン、連絡先など）のPJAX処理を有効にします。"
+
+#: includes/class-oow-pjax.php:537
+msgid "Enable PJAX navigation on the site."
+msgstr "サイト上でPJAXナビゲーションを有効にします。"
+
+#: includes/class-oow-pjax.php:490
+msgid "Enable Script Re-execution"
+msgstr "スクリプトの再実行を有効にする"
+
+#: includes/class-oow-pjax.php:205
+msgid "Error loading content."
+msgstr "コンテンツの読み込みエラー。"
+
+#: includes/class-oow-pjax.php:245
+msgid "Error submitting form."
+msgstr "フォーム送信エラー。"
+
+#: includes/class-oow-pjax.php:543
+msgid "Example: #main .content .article"
+msgstr "例: #main .content .article"
+
+#: includes/class-oow-pjax.php:549
+msgid "Example: .no-pjax #skip-link"
+msgstr "例: .no-pjax #skip-link"
+
+#: includes/class-oow-pjax.php:577
+msgid "Example: pjax:before pjax:after"
+msgstr "例: pjax:before pjax:after"
+
+#: includes/class-oow-pjax.php:479
+msgid "Exclude External Links"
+msgstr "外部リンクを除外"
+
+#: includes/class-oow-pjax.php:480
+msgid "Exclude Links with target=\"_blank\""
+msgstr "target=\"_blank\"のリンクを除外"
+
+#: includes/class-oow-pjax.php:478
+msgid "Exclude Selectors (space-separated)"
+msgstr "除外セレクタ（スペース区切り）"
+
+#: includes/class-oow-pjax.php:625
+msgid "Execute footer scripts during PJAX navigation."
+msgstr "PJAXナビゲーション中にフッタースクリプトを実行します。"
+
+#: includes/class-oow-pjax.php:631
+msgid "Execute inline scripts during PJAX navigation."
+msgstr "PJAXナビゲーション中にインラインスクリプトを実行します。"
+
+#: includes/class-oow-pjax.php:333
+msgid "Explore now"
+msgstr "今すぐ探索"
+
+#: includes/class-oow-pjax.php:326
+msgid ""
+"Fetches new content via AJAX and updates specified containers (e.g., #main)."
+msgstr "AJAX経由で新しいコンテンツを取得し、指定したコンテナ（例：#main）を更新します。"
+
+#: includes/class-oow-pjax.php:323
+msgid "How It Works"
+msgstr "仕組み"
+
+#. Author URI of the plugin
+msgid "https://oowcode.com"
+msgstr "https://oowcode.com"
+
+#: includes/class-oow-pjax.php:613
+msgid ""
+"Inject page-specific stylesheets and inline styles during PJAX navigation."
+msgstr "PJAXナビゲーション中にページ固有のスタイルシートとインラインスタイルを注入します。"
+
+#: includes/class-oow-pjax.php:325
+msgid "Intercepts internal link clicks and prevents full page reloads."
+msgstr "内部リンクのクリックを遮断し、ページの完全なリロードを防ぎます。"
+
+#: includes/class-oow-pjax.php:227
+msgid "Invalid form submission."
+msgstr "無効なフォーム送信。"
+
+#: includes/class-oow-pjax.php:300 includes/class-oow-pjax.php:400
+msgid "Light Mode"
+msgstr "ライトモード"
+
+#: includes/class-oow-pjax.php:486
+msgid "Loader CSS"
+msgstr "ローダーCSS"
+
+#: includes/class-oow-pjax.php:487
+msgid "Minimum Loader Duration (ms)"
+msgstr "最小ローダー時間（ミリ秒）"
+
+#: includes/class-oow-pjax.php:601
+msgid "Minimum time the loader is visible (0 to disable)."
+msgstr "ローダーの最小表示時間（0で無効）。"
+
+#: includes/class-oow-pjax.php:169
+msgid "No URL provided."
+msgstr "URLが提供されていません。"
+
+#: includes/class-oow-pjax.php:294
+msgid "OOW"
+msgstr "OOW"
+
+#. Name of the plugin
+#: includes/class-oow-pjax.php:262
+msgid "OOW PJAX"
+msgstr "OOW PJAX"
+
+#: includes/class-oow-pjax.php:322
+msgid ""
+"OOW PJAX enhances your WordPress site by enabling a smoother navigation "
+"experience using PushState and AJAX (PJAX). Instead of full page reloads, it "
+"dynamically updates specific content areas, making your site feel faster and "
+"more responsive."
+msgstr ""
+"OOW PJAXは、PushStateとAJAX（PJAX）を使用してよりスムーズなナビゲーション体験を可能にすることで、WordPressサイトを強化します。ページ全体をリロードする代わりに、特定のコンテンツエリアを動的に更新し、サイトをより高速で応答性の高いものにします。"
+
+#: includes/class-oow-pjax.php:261
+msgid "OOW PJAX Settings"
+msgstr "OOW PJAXの設定"
+
+#. Author of the plugin
+msgid "oowpress"
+msgstr "oowpress"
+
+#: includes/class-oow-pjax.php:328
+msgid "Optionally caches pages to speed up subsequent visits."
+msgstr "オプションでページをキャッシュし、次回以降の訪問を高速化します。"
+
+#: includes/class-oow-pjax.php:306
+msgid "Overview"
+msgstr "概要"
+
+#: includes/class-oow-pjax.php:295
+msgid "PJAX"
+msgstr "PJAX"
+
+#: includes/class-oow-pjax.php:321
+msgid "Plugin Overview"
+msgstr "プラグインの概要"
+
+#: includes/class-oow-pjax.php:619
+msgid "Re-execute scripts within updated content areas."
+msgstr "更新されたコンテンツエリア内でスクリプトを再実行します。"
+
+#: includes/class-oow-pjax.php:595
+msgid "Reset to Default"
+msgstr "デフォルトにリセット"
+
+#: includes/class-oow-pjax.php:493
+msgid "Script Priority"
+msgstr "スクリプトの優先度"
+
+#: includes/class-oow-pjax.php:164 includes/class-oow-pjax.php:220
+msgid "Security check failed. Invalid nonce."
+msgstr "セキュリティチェックに失敗しました。無効なnonceです。"
+
+#: includes/class-oow-pjax.php:637
+msgid ""
+"Set the priority for loading oow-pjax.js in the footer. Higher values (e.g., "
+"9999) load the script later."
+msgstr ""
+"フッターでoow-pjax.jsの読み込み優先度を設定します。高い値（例：9999）はスクリプトを後で読み込みます。"
+
+#: includes/class-oow-pjax.php:309 includes/class-oow-pjax.php:336
+msgid "Settings"
+msgstr "設定"
+
+#: includes/class-oow-pjax.php:589
+msgid "Show a loading overlay during content loading."
+msgstr "コンテンツの読み込み中にローディングオーバーレイを表示します。"
+
+#: includes/class-oow-pjax.php:312
+msgid "Support"
+msgstr "サポート"
+
+#: includes/class-oow-pjax.php:477
+msgid "Target Containers (space-separated)"
+msgstr "ターゲットコンテナ（スペース区切り）"
+
+#: includes/class-oow-pjax.php:571
+msgid ""
+"Time in seconds before cached content expires (0 to disable expiration)."
+msgstr "キャッシュされたコンテンツが期限切れになるまでの時間（秒）。（0で期限切れを無効にします。）"
+
+#. Description of the plugin
+#, fuzzy
+#| msgid ""
+#| "Turns a WordPress site into a PJAX (PushState + AJAX) experience without "
+#| "jQuery."
+msgid ""
+"Transforms a WordPress site into a PJAX (PushState + AJAX) experience "
+"without jQuery."
+msgstr "WordPressサイトをjQueryなしでPJAX（PushState + AJAX）体験に変換します。"
+
+#: includes/class-oow-pjax.php:327
+msgid "Updates the browser URL using the History API for seamless navigation."
+msgstr "History APIを使用してブラウザのURLを更新し、シームレスなナビゲーションを実現します。"
+
+#: includes/class-oow-pjax.php:332
+msgid "View the Complete Documentation"
+msgstr "完全なドキュメントを表示"
+
+#: includes/class-oow-pjax.php:333
+msgid ""
+"Want to dive deeper into OOW PJAX’s features or need detailed setup guides? "
+"Visit our comprehensive documentation for tutorials, examples, and advanced "
+"tips."
+msgstr ""
+"OOW PJAXの機能についてさらに詳しく知りたい、または詳細なセットアップガイドが必要ですか？チュートリアル、例、高度なヒントについては、包括的なドキュメントをご覧ください。"

@@ -1,0 +1,323 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: OOW PJAX\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-03-26 09:22+0000\n"
+"PO-Revision-Date: 2025-04-22 10:13+0000\n"
+"Last-Translator: \n"
+"Language-Team: Hindi\n"
+"Language: hi_IN\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.7.1; wp-6.7.2\n"
+"X-Domain: oow-pjax"
+
+#: includes/class-oow-pjax.php:315
+msgid "About"
+msgstr "के बारे में"
+
+#: includes/class-oow-pjax.php:74
+msgid "An error occurred while loading the page. Please try again."
+msgstr "पेज लोड करने में त्रुटि हुई। कृपया पुनः प्रयास करें।"
+
+#: includes/class-oow-pjax.php:297
+#, fuzzy
+#| msgid "OOWCODE"
+msgid "By OOWCODE"
+msgstr "OOWCODE"
+
+#: includes/class-oow-pjax.php:482
+msgid "Cache Lifetime (seconds)"
+msgstr "कैश की अवधि (सेकंड में)"
+
+#: includes/class-oow-pjax.php:331
+msgid ""
+"Configure the plugin in the \"Settings\" tab to define target containers, "
+"exclusions, and loader styles."
+msgstr ""
+"प्लगइन को \"सेटिंग्स\" टैब में कॉन्फ़िगर करें ताकि लक्ष्य कंटेनर, बहिष्करण, "
+"और लोडर शैलियाँ निर्धारित की जा सकें।"
+
+#: includes/class-oow-pjax.php:483
+msgid "Custom Events (space-separated)"
+msgstr "कस्टम इवेंट्स (स्पेस से अलग किए गए)"
+
+#: includes/class-oow-pjax.php:595
+msgid "Customize the loader appearance with CSS."
+msgstr "CSS के साथ लोडर की दिखावट को अनुकूलित करें।"
+
+#: includes/class-oow-pjax.php:300 includes/class-oow-pjax.php:400
+msgid "Dark Mode"
+msgstr "डार्क मोड"
+
+#: includes/class-oow-pjax.php:583
+msgid "Display logs in the console."
+msgstr "कंसोल में लॉग प्रदर्शित करें।"
+
+#: includes/class-oow-pjax.php:329
+msgid "Displays a customizable loader during content loading."
+msgstr "सामग्री लोड होने के दौरान एक अनुकूलन योग्य लोडर प्रदर्शित करता है।"
+
+#: includes/class-oow-pjax.php:481
+msgid "Enable Cache"
+msgstr "कैश सक्षम करें"
+
+#: includes/class-oow-pjax.php:565
+msgid "Enable caching for visited pages."
+msgstr "देखे गए पृष्ठों के लिए कैशिंग सक्षम करें।"
+
+#: includes/class-oow-pjax.php:484
+msgid "Enable Debug Mode"
+msgstr "डीबग मोड सक्षम करें"
+
+#: includes/class-oow-pjax.php:491
+msgid "Enable Footer Scripts Execution"
+msgstr "फूटर स्क्रिप्ट्स का निष्पादन सक्षम करें"
+
+#: includes/class-oow-pjax.php:488
+msgid "Enable Form Handling"
+msgstr "फॉर्म हैंडलिंग सक्षम करें"
+
+#: includes/class-oow-pjax.php:492
+msgid "Enable Inline Scripts Execution"
+msgstr "इनलाइन स्क्रिप्ट्स का निष्पादन सक्षम करें"
+
+#: includes/class-oow-pjax.php:485
+msgid "Enable Loader"
+msgstr "लोडर सक्षम करें"
+
+#: includes/class-oow-pjax.php:489
+msgid "Enable Page-Specific Styles"
+msgstr "पेज-विशिष्ट शैलियों को सक्षम करें"
+
+#: includes/class-oow-pjax.php:476
+msgid "Enable PJAX"
+msgstr "PJAX सक्षम करें"
+
+#: includes/class-oow-pjax.php:607
+msgid ""
+"Enable PJAX handling for form submissions (comments, login, contact, etc.)."
+msgstr "फॉर्म सबमिशन (टिप्पणियां, लॉगिन, संपर्क आदि) के लिए PJAX हैंडलिंग सक्षम करें।"
+
+#: includes/class-oow-pjax.php:537
+msgid "Enable PJAX navigation on the site."
+msgstr "साइट पर PJAX नेविगेशन सक्षम करें।"
+
+#: includes/class-oow-pjax.php:490
+msgid "Enable Script Re-execution"
+msgstr "स्क्रिप्ट पुनर्निष्पादन सक्षम करें"
+
+#: includes/class-oow-pjax.php:205
+msgid "Error loading content."
+msgstr "सामग्री लोड करने में त्रुटि।"
+
+#: includes/class-oow-pjax.php:245
+msgid "Error submitting form."
+msgstr "फॉर्म सबमिट करने में त्रुटि।"
+
+#: includes/class-oow-pjax.php:543
+msgid "Example: #main .content .article"
+msgstr "उदाहरण: #main .content .article"
+
+#: includes/class-oow-pjax.php:549
+msgid "Example: .no-pjax #skip-link"
+msgstr "उदाहरण: .no-pjax #skip-link"
+
+#: includes/class-oow-pjax.php:577
+msgid "Example: pjax:before pjax:after"
+msgstr "उदाहरण: pjax:before pjax:after"
+
+#: includes/class-oow-pjax.php:479
+msgid "Exclude External Links"
+msgstr "बाहरी लिंक को बाहर करें"
+
+#: includes/class-oow-pjax.php:480
+msgid "Exclude Links with target=\"_blank\""
+msgstr "target=\"_blank\" वाले लिंक को बाहर करें"
+
+#: includes/class-oow-pjax.php:478
+msgid "Exclude Selectors (space-separated)"
+msgstr "चयनकर्ताओं को बाहर करें (स्पेस से अलग किए गए)"
+
+#: includes/class-oow-pjax.php:625
+msgid "Execute footer scripts during PJAX navigation."
+msgstr "PJAX नेविगेशन के दौरान फूटर स्क्रिप्ट्स को निष्पादित करें।"
+
+#: includes/class-oow-pjax.php:631
+msgid "Execute inline scripts during PJAX navigation."
+msgstr "PJAX नेविगेशन के दौरान इनलाइन स्क्रिप्ट्स को निष्पादित करें।"
+
+#: includes/class-oow-pjax.php:333
+msgid "Explore now"
+msgstr "अब अन्वेषण करें"
+
+#: includes/class-oow-pjax.php:326
+msgid ""
+"Fetches new content via AJAX and updates specified containers (e.g., #main)."
+msgstr ""
+"AJAX के माध्यम से नई सामग्री प्राप्त करता है और निर्दिष्ट कंटेनरों को अपडेट "
+"करता है (उदाहरण: #main)।"
+
+#: includes/class-oow-pjax.php:323
+msgid "How It Works"
+msgstr "यह कैसे काम करता है"
+
+#. Author URI of the plugin
+msgid "https://oowcode.com"
+msgstr "https://oowcode.com"
+
+#: includes/class-oow-pjax.php:613
+msgid ""
+"Inject page-specific stylesheets and inline styles during PJAX navigation."
+msgstr "PJAX नेविगेशन के दौरान पेज-विशिष्ट स्टाइलशीट और इनलाइन शैलियों को इंजेक्ट करें।"
+
+#: includes/class-oow-pjax.php:325
+msgid "Intercepts internal link clicks and prevents full page reloads."
+msgstr ""
+"आंतरिक लिंक क्लिक को रोकता है और पूरे पृष्ठ को पुनः लोड होने से रोकता है।"
+
+#: includes/class-oow-pjax.php:227
+msgid "Invalid form submission."
+msgstr "अमान्य फॉर्म सबमिशन।"
+
+#: includes/class-oow-pjax.php:300 includes/class-oow-pjax.php:400
+msgid "Light Mode"
+msgstr "लाइट मोड"
+
+#: includes/class-oow-pjax.php:486
+msgid "Loader CSS"
+msgstr "लोडर CSS"
+
+#: includes/class-oow-pjax.php:487
+msgid "Minimum Loader Duration (ms)"
+msgstr "न्यूनतम लोडर अवधि (मिलीसेकंड)"
+
+#: includes/class-oow-pjax.php:601
+msgid "Minimum time the loader is visible (0 to disable)."
+msgstr "लोडर दिखाई देने का न्यूनतम समय (0 इसे अक्षम करने के लिए)।"
+
+#: includes/class-oow-pjax.php:169
+msgid "No URL provided."
+msgstr "कोई URL प्रदान नहीं किया गया।"
+
+#: includes/class-oow-pjax.php:294
+msgid "OOW"
+msgstr "OOW"
+
+#. Name of the plugin
+#: includes/class-oow-pjax.php:262
+msgid "OOW PJAX"
+msgstr "OOW PJAX"
+
+#: includes/class-oow-pjax.php:322
+msgid ""
+"OOW PJAX enhances your WordPress site by enabling a smoother navigation "
+"experience using PushState and AJAX (PJAX). Instead of full page reloads, it "
+"dynamically updates specific content areas, making your site feel faster and "
+"more responsive."
+msgstr ""
+"OOW PJAX आपके वर्डप्रेस साइट को PushState और AJAX (PJAX) का उपयोग करके एक "
+"सहज नेविगेशन अनुभव प्रदान करके बेहतर बनाता है। पूरे पृष्ठ को पुनः लोड करने "
+"के बजाय, यह विशिष्ट सामग्री क्षेत्रों को गतिशील रूप से अपडेट करता है, जिससे "
+"आपकी साइट तेज और अधिक प्रतिक्रियाशील लगती है।"
+
+#: includes/class-oow-pjax.php:261
+msgid "OOW PJAX Settings"
+msgstr "OOW PJAX सेटिंग्स"
+
+#. Author of the plugin
+msgid "oowpress"
+msgstr "oowpress"
+
+#: includes/class-oow-pjax.php:328
+msgid "Optionally caches pages to speed up subsequent visits."
+msgstr ""
+"वैकल्पिक रूप से पृष्ठों को कैश करता है ताकि बाद की यात्राओं को तेज किया जा "
+"सके।"
+
+#: includes/class-oow-pjax.php:306
+msgid "Overview"
+msgstr "अवलोकन"
+
+#: includes/class-oow-pjax.php:295
+msgid "PJAX"
+msgstr "PJAX"
+
+#: includes/class-oow-pjax.php:321
+msgid "Plugin Overview"
+msgstr "प्लगइन अवलोकन"
+
+#: includes/class-oow-pjax.php:619
+msgid "Re-execute scripts within updated content areas."
+msgstr "अपडेट किए गए सामग्री क्षेत्रों में स्क्रिप्ट्स को पुनर्निष्पादित करें।"
+
+#: includes/class-oow-pjax.php:595
+msgid "Reset to Default"
+msgstr "डिफ़ॉल्ट पर रीसेट करें"
+
+#: includes/class-oow-pjax.php:493
+msgid "Script Priority"
+msgstr "स्क्रिप्ट प्राथमिकता"
+
+#: includes/class-oow-pjax.php:164 includes/class-oow-pjax.php:220
+msgid "Security check failed. Invalid nonce."
+msgstr "सुरक्षा जाँच विफल। अमान्य नॉन्स।"
+
+#: includes/class-oow-pjax.php:637
+msgid ""
+"Set the priority for loading oow-pjax.js in the footer. Higher values (e.g., "
+"9999) load the script later."
+msgstr ""
+"oow-pjax.js को फूटर में लोड करने की प्राथमिकता सेट करें। उच्च मान (उदाहरण के लिए, 9999) स्क्रिप्ट को बाद में लोड करते हैं।"
+
+#: includes/class-oow-pjax.php:309 includes/class-oow-pjax.php:336
+msgid "Settings"
+msgstr "सेटिंग्स"
+
+#: includes/class-oow-pjax.php:589
+msgid "Show a loading overlay during content loading."
+msgstr "सामग्री लोड होने के दौरान एक लोडिंग ओवरले दिखाएँ।"
+
+#: includes/class-oow-pjax.php:312
+msgid "Support"
+msgstr "समर्थन"
+
+#: includes/class-oow-pjax.php:477
+msgid "Target Containers (space-separated)"
+msgstr "लक्ष्य कंटेनर (स्पेस से अलग किए गए)"
+
+#: includes/class-oow-pjax.php:571
+msgid ""
+"Time in seconds before cached content expires (0 to disable expiration)."
+msgstr "कैश्ड सामग्री समाप्त होने से पहले का समय सेकंड में (0 समाप्ति को अक्षम करने के लिए)।"
+
+#. Description of the plugin
+#, fuzzy
+#| msgid ""
+#| "Turns a WordPress site into a PJAX (PushState + AJAX) experience without "
+#| "jQuery."
+msgid ""
+"Transforms a WordPress site into a PJAX (PushState + AJAX) experience "
+"without jQuery."
+msgstr "एक वर्डप्रेस साइट को jQuery के बिना PJAX (PushState + AJAX) अनुभव में बदल देता है।"
+
+#: includes/class-oow-pjax.php:327
+msgid "Updates the browser URL using the History API for seamless navigation."
+msgstr ""
+"निर्बाध नेविगेशन के लिए History API का उपयोग करके ब्राउज़र URL को अपडेट करता "
+"है।"
+
+#: includes/class-oow-pjax.php:332
+msgid "View the Complete Documentation"
+msgstr "पूर्ण प्रलेखन देखें"
+
+#: includes/class-oow-pjax.php:333
+msgid ""
+"Want to dive deeper into OOW PJAX’s features or need detailed setup guides? "
+"Visit our comprehensive documentation for tutorials, examples, and advanced "
+"tips."
+msgstr ""
+"क्या आप OOW PJAX की सुविधाओं में गहराई से जाना चाहते हैं या आपको विस्तृत सेटअप गाइड की आवश्यकता है? ट्यूटोरियल, उदाहरण और उन्नत सुझावों के लिए हमारी व्यापक प्रलेखन पर जाएँ।"

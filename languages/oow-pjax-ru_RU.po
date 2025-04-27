@@ -1,0 +1,313 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: OOW PJAX\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-03-26 09:22+0000\n"
+"PO-Revision-Date: 2025-04-22 10:15+0000\n"
+"Last-Translator: \n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.7.1; wp-6.7.2\n"
+"X-Domain: oow-pjax"
+
+#: includes/class-oow-pjax.php:315
+msgid "About"
+msgstr "О плагине"
+
+#: includes/class-oow-pjax.php:74
+msgid "An error occurred while loading the page. Please try again."
+msgstr "Произошла ошибка при загрузке страницы. Пожалуйста, попробуйте еще раз."
+
+#: includes/class-oow-pjax.php:297
+#, fuzzy
+#| msgid "OOWCODE"
+msgid "By OOWCODE"
+msgstr "OOWCODE"
+
+#: includes/class-oow-pjax.php:482
+msgid "Cache Lifetime (seconds)"
+msgstr "Срок жизни кэша (секунды)"
+
+#: includes/class-oow-pjax.php:331
+msgid ""
+"Configure the plugin in the \"Settings\" tab to define target containers, "
+"exclusions, and loader styles."
+msgstr ""
+"Настройте плагин на вкладке \"Настройки\", чтобы определить целевые контейнеры, "
+"исключения и стили загрузчика."
+
+#: includes/class-oow-pjax.php:483
+msgid "Custom Events (space-separated)"
+msgstr "Пользовательские события (разделенные пробелами)"
+
+#: includes/class-oow-pjax.php:595
+msgid "Customize the loader appearance with CSS."
+msgstr "Настройте внешний вид загрузчика с помощью CSS."
+
+#: includes/class-oow-pjax.php:300 includes/class-oow-pjax.php:400
+msgid "Dark Mode"
+msgstr "Темный режим"
+
+#: includes/class-oow-pjax.php:583
+msgid "Display logs in the console."
+msgstr "Отображать логи в консоли."
+
+#: includes/class-oow-pjax.php:329
+msgid "Displays a customizable loader during content loading."
+msgstr "Отображает настраиваемый загрузчик во время загрузки контента."
+
+#: includes/class-oow-pjax.php:481
+msgid "Enable Cache"
+msgstr "Включить кэширование"
+
+#: includes/class-oow-pjax.php:565
+msgid "Enable caching for visited pages."
+msgstr "Включить кэширование для посещенных страниц."
+
+#: includes/class-oow-pjax.php:484
+msgid "Enable Debug Mode"
+msgstr "Включить режим отладки"
+
+#: includes/class-oow-pjax.php:491
+msgid "Enable Footer Scripts Execution"
+msgstr "Включить выполнение скриптов в футере"
+
+#: includes/class-oow-pjax.php:488
+msgid "Enable Form Handling"
+msgstr "Включить обработку форм"
+
+#: includes/class-oow-pjax.php:492
+msgid "Enable Inline Scripts Execution"
+msgstr "Включить выполнение встроенных скриптов"
+
+#: includes/class-oow-pjax.php:485
+msgid "Enable Loader"
+msgstr "Включить загрузчик"
+
+#: includes/class-oow-pjax.php:489
+msgid "Enable Page-Specific Styles"
+msgstr "Включить стили, специфичные для страницы"
+
+#: includes/class-oow-pjax.php:476
+msgid "Enable PJAX"
+msgstr "Включить PJAX"
+
+#: includes/class-oow-pjax.php:607
+msgid ""
+"Enable PJAX handling for form submissions (comments, login, contact, etc.)."
+msgstr "Включить обработку PJAX для отправки форм (комментарии, вход, контакт и т.д.)."
+
+#: includes/class-oow-pjax.php:537
+msgid "Enable PJAX navigation on the site."
+msgstr "Включить навигацию PJAX на сайте."
+
+#: includes/class-oow-pjax.php:490
+msgid "Enable Script Re-execution"
+msgstr "Включить повторное выполнение скриптов"
+
+#: includes/class-oow-pjax.php:205
+msgid "Error loading content."
+msgstr "Ошибка загрузки контента."
+
+#: includes/class-oow-pjax.php:245
+msgid "Error submitting form."
+msgstr "Ошибка при отправке формы."
+
+#: includes/class-oow-pjax.php:543
+msgid "Example: #main .content .article"
+msgstr "Пример: #main .content .article"
+
+#: includes/class-oow-pjax.php:549
+msgid "Example: .no-pjax #skip-link"
+msgstr "Пример: .no-pjax #skip-link"
+
+#: includes/class-oow-pjax.php:577
+msgid "Example: pjax:before pjax:after"
+msgstr "Пример: pjax:before pjax:after"
+
+#: includes/class-oow-pjax.php:479
+msgid "Exclude External Links"
+msgstr "Исключить внешние ссылки"
+
+#: includes/class-oow-pjax.php:480
+msgid "Exclude Links with target=\"_blank\""
+msgstr "Исключить ссылки с target=\"_blank\""
+
+#: includes/class-oow-pjax.php:478
+msgid "Exclude Selectors (space-separated)"
+msgstr "Исключить селекторы (разделенные пробелами)"
+
+#: includes/class-oow-pjax.php:625
+msgid "Execute footer scripts during PJAX navigation."
+msgstr "Выполнять скрипты футера во время навигации PJAX."
+
+#: includes/class-oow-pjax.php:631
+msgid "Execute inline scripts during PJAX navigation."
+msgstr "Выполнять встроенные скрипты во время навигации PJAX."
+
+#: includes/class-oow-pjax.php:333
+msgid "Explore now"
+msgstr "Исследовать сейчас"
+
+#: includes/class-oow-pjax.php:326
+msgid ""
+"Fetches new content via AJAX and updates specified containers (e.g., #main)."
+msgstr "Получает новый контент через AJAX и обновляет указанные контейнеры (например, #main)."
+
+#: includes/class-oow-pjax.php:323
+msgid "How It Works"
+msgstr "Как это работает"
+
+#. Author URI of the plugin
+msgid "https://oowcode.com"
+msgstr "https://oowcode.com"
+
+#: includes/class-oow-pjax.php:613
+msgid ""
+"Inject page-specific stylesheets and inline styles during PJAX navigation."
+msgstr "Вставлять стили, специфичные для страницы, и встроенные стили во время навигации PJAX."
+
+#: includes/class-oow-pjax.php:325
+msgid "Intercepts internal link clicks and prevents full page reloads."
+msgstr "Перехватывает клики по внутренним ссылкам и предотвращает полную перезагрузку страницы."
+
+#: includes/class-oow-pjax.php:227
+msgid "Invalid form submission."
+msgstr "Недопустимая отправка формы."
+
+#: includes/class-oow-pjax.php:300 includes/class-oow-pjax.php:400
+msgid "Light Mode"
+msgstr "Светлый режим"
+
+#: includes/class-oow-pjax.php:486
+msgid "Loader CSS"
+msgstr "CSS загрузчика"
+
+#: includes/class-oow-pjax.php:487
+msgid "Minimum Loader Duration (ms)"
+msgstr "Минимальная длительность загрузчика (мс)"
+
+#: includes/class-oow-pjax.php:601
+msgid "Minimum time the loader is visible (0 to disable)."
+msgstr "Минимальное время отображения загрузчика (0 для отключения)."
+
+#: includes/class-oow-pjax.php:169
+msgid "No URL provided."
+msgstr "URL не указан."
+
+#: includes/class-oow-pjax.php:294
+msgid "OOW"
+msgstr "OOW"
+
+#. Name of the plugin
+#: includes/class-oow-pjax.php:262
+msgid "OOW PJAX"
+msgstr "OOW PJAX"
+
+#: includes/class-oow-pjax.php:322
+msgid ""
+"OOW PJAX enhances your WordPress site by enabling a smoother navigation "
+"experience using PushState and AJAX (PJAX). Instead of full page reloads, it "
+"dynamically updates specific content areas, making your site feel faster and "
+"more responsive."
+msgstr ""
+"OOW PJAX улучшает ваш сайт WordPress, обеспечивая более плавную навигацию с использованием PushState и AJAX (PJAX). Вместо полной перезагрузки страниц он динамически обновляет определенные области контента, делая ваш сайт более быстрым и отзывчивым."
+
+#: includes/class-oow-pjax.php:261
+msgid "OOW PJAX Settings"
+msgstr "Настройки OOW PJAX"
+
+#. Author of the plugin
+msgid "oowpress"
+msgstr "oowpress"
+
+#: includes/class-oow-pjax.php:328
+msgid "Optionally caches pages to speed up subsequent visits."
+msgstr "При необходимости кэширует страницы для ускорения последующих посещений."
+
+#: includes/class-oow-pjax.php:306
+msgid "Overview"
+msgstr "Обзор"
+
+#: includes/class-oow-pjax.php:295
+msgid "PJAX"
+msgstr "PJAX"
+
+#: includes/class-oow-pjax.php:321
+msgid "Plugin Overview"
+msgstr "Обзор плагина"
+
+#: includes/class-oow-pjax.php:619
+msgid "Re-execute scripts within updated content areas."
+msgstr "Повторно выполнять скрипты в обновленных областях контента."
+
+#: includes/class-oow-pjax.php:595
+msgid "Reset to Default"
+msgstr "Сбросить на стандартные настройки"
+
+#: includes/class-oow-pjax.php:493
+msgid "Script Priority"
+msgstr "Приоритет скрипта"
+
+#: includes/class-oow-pjax.php:164 includes/class-oow-pjax.php:220
+msgid "Security check failed. Invalid nonce."
+msgstr "Ошибка проверки безопасности. Недопустимый nonce."
+
+#: includes/class-oow-pjax.php:637
+msgid ""
+"Set the priority for loading oow-pjax.js in the footer. Higher values (e.g., "
+"9999) load the script later."
+msgstr "Установите приоритет загрузки oow-pjax.js в футере. Более высокие значения (например, 9999) загружают скрипт позже."
+
+#: includes/class-oow-pjax.php:309 includes/class-oow-pjax.php:336
+msgid "Settings"
+msgstr "Настройки"
+
+#: includes/class-oow-pjax.php:589
+msgid "Show a loading overlay during content loading."
+msgstr "Показывать оверлей загрузки во время загрузки контента."
+
+#: includes/class-oow-pjax.php:312
+msgid "Support"
+msgstr "Поддержка"
+
+#: includes/class-oow-pjax.php:477
+msgid "Target Containers (space-separated)"
+msgstr "Целевые контейнеры (разделенные пробелами)"
+
+#: includes/class-oow-pjax.php:571
+msgid ""
+"Time in seconds before cached content expires (0 to disable expiration)."
+msgstr "Время в секундах до истечения срока действия кэшированного контента (0 для отключения истечения срока)."
+
+#. Description of the plugin
+#, fuzzy
+#| msgid ""
+#| "Turns a WordPress site into a PJAX (PushState + AJAX) experience without "
+#| "jQuery."
+msgid ""
+"Transforms a WordPress site into a PJAX (PushState + AJAX) experience "
+"without jQuery."
+msgstr "Преобразует сайт WordPress в опыт PJAX (PushState + AJAX) без jQuery."
+
+#: includes/class-oow-pjax.php:327
+msgid "Updates the browser URL using the History API for seamless navigation."
+msgstr "Обновляет URL браузера с использованием History API для плавной навигации."
+
+#: includes/class-oow-pjax.php:332
+msgid "View the Complete Documentation"
+msgstr "Посмотреть полную документацию"
+
+#: includes/class-oow-pjax.php:333
+msgid ""
+"Want to dive deeper into OOW PJAX’s features or need detailed setup guides? "
+"Visit our comprehensive documentation for tutorials, examples, and advanced "
+"tips."
+msgstr ""
+"Хотите глубже изучить возможности OOW PJAX или нужны подробные руководства по настройке? Посетите нашу полную документацию для получения учебных материалов, примеров и продвинутых советов."

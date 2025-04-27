@@ -1,0 +1,325 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: OOW PJAX\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-03-25 20:02+0000\n"
+"PO-Revision-Date: 2025-04-22 10:13+0000\n"
+"Last-Translator: \n"
+"Language-Team: French (France)\n"
+"Language: fr_FR\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.7.1; wp-6.7.2\n"
+"X-Domain: oow-pjax"
+
+#: includes/class-oow-pjax.php:315
+msgid "About"
+msgstr "A propos de"
+
+#: includes/class-oow-pjax.php:74
+msgid "An error occurred while loading the page. Please try again."
+msgstr "Une erreur s'est produite lors du chargement de la page. Veuillez réessayer."
+
+#: includes/class-oow-pjax.php:297
+#, fuzzy
+#| msgid "OOWCODE"
+msgid "By OOWCODE"
+msgstr "OOWCODE"
+
+#: includes/class-oow-pjax.php:482
+msgid "Cache Lifetime (seconds)"
+msgstr "Durée de vie du cache (secondes)"
+
+#: includes/class-oow-pjax.php:331
+msgid ""
+"Configure the plugin in the \"Settings\" tab to define target containers, "
+"exclusions, and loader styles."
+msgstr ""
+"Configurez le plugin dans l'onglet \"Settings\" pour définir les conteneurs "
+"cibles, les exclusions et les styles de chargement."
+
+#: includes/class-oow-pjax.php:483
+msgid "Custom Events (space-separated)"
+msgstr "Événements personnalisés (séparés par des espaces)"
+
+#: includes/class-oow-pjax.php:595
+msgid "Customize the loader appearance with CSS."
+msgstr "Personnaliser l'apparence du chargeur à l'aide de CSS."
+
+#: includes/class-oow-pjax.php:300 includes/class-oow-pjax.php:400
+msgid "Dark Mode"
+msgstr "Mode sombre"
+
+#: includes/class-oow-pjax.php:583
+msgid "Display logs in the console."
+msgstr "Afficher les journaux dans la console."
+
+#: includes/class-oow-pjax.php:329
+msgid "Displays a customizable loader during content loading."
+msgstr "Affiche un chargeur personnalisable pendant le chargement du contenu."
+
+#: includes/class-oow-pjax.php:481
+msgid "Enable Cache"
+msgstr "Activer le cache"
+
+#: includes/class-oow-pjax.php:565
+msgid "Enable caching for visited pages."
+msgstr "Activer la mise en cache des pages visitées."
+
+#: includes/class-oow-pjax.php:484
+msgid "Enable Debug Mode"
+msgstr "Activer le mode débogage"
+
+#: includes/class-oow-pjax.php:491
+msgid "Enable Footer Scripts Execution"
+msgstr "Activer l'exécution des scripts de pied de page"
+
+#: includes/class-oow-pjax.php:488
+msgid "Enable Form Handling"
+msgstr "Activer la gestion des formulaires"
+
+#: includes/class-oow-pjax.php:492
+msgid "Enable Inline Scripts Execution"
+msgstr "Activer l'exécution des scripts en ligne"
+
+#: includes/class-oow-pjax.php:485
+msgid "Enable Loader"
+msgstr "Activer le chargeur"
+
+#: includes/class-oow-pjax.php:489
+msgid "Enable Page-Specific Styles"
+msgstr "Activer les styles spécifiques à la page"
+
+#: includes/class-oow-pjax.php:476
+msgid "Enable PJAX"
+msgstr "Activer PJAX"
+
+#: includes/class-oow-pjax.php:607
+msgid ""
+"Enable PJAX handling for form submissions (comments, login, contact, etc.)."
+msgstr "Activer la gestion PJAX pour les soumissions de formulaires (commentaires, connexion, contact, etc.)."
+
+#: includes/class-oow-pjax.php:537
+msgid "Enable PJAX navigation on the site."
+msgstr "Activer la navigation PJAX sur le site."
+
+#: includes/class-oow-pjax.php:490
+msgid "Enable Script Re-execution"
+msgstr "Activer la réexécution des scripts"
+
+#: includes/class-oow-pjax.php:205
+msgid "Error loading content."
+msgstr "Erreur de chargement du contenu."
+
+#: includes/class-oow-pjax.php:245
+msgid "Error submitting form."
+msgstr "Erreur lors de la soumission du formulaire."
+
+#: includes/class-oow-pjax.php:543
+msgid "Example: #main .content .article"
+msgstr "Exemple : #main .content .article"
+
+#: includes/class-oow-pjax.php:549
+msgid "Example: .no-pjax #skip-link"
+msgstr "Exemple : .no-pjax #skip-link"
+
+#: includes/class-oow-pjax.php:577
+msgid "Example: pjax:before pjax:after"
+msgstr "Exemple : pjax:before pjax:after"
+
+#: includes/class-oow-pjax.php:479
+msgid "Exclude External Links"
+msgstr "Exclure les liens externes"
+
+#: includes/class-oow-pjax.php:480
+msgid "Exclude Links with target=\"_blank\""
+msgstr "Exclure les liens avec target=\"_blank\""
+
+#: includes/class-oow-pjax.php:478
+msgid "Exclude Selectors (space-separated)"
+msgstr "Sélecteurs d'exclusion (séparés par des espaces)"
+
+#: includes/class-oow-pjax.php:625
+msgid "Execute footer scripts during PJAX navigation."
+msgstr "Exécuter les scripts de pied de page pendant la navigation PJAX."
+
+#: includes/class-oow-pjax.php:631
+msgid "Execute inline scripts during PJAX navigation."
+msgstr "Exécuter les scripts en ligne pendant la navigation PJAX."
+
+#: includes/class-oow-pjax.php:333
+msgid "Explore now"
+msgstr "Explorer maintenant"
+
+#: includes/class-oow-pjax.php:326
+msgid ""
+"Fetches new content via AJAX and updates specified containers (e.g., #main)."
+msgstr ""
+"Récupère le nouveau contenu via AJAX et met à jour les conteneurs spécifiés "
+"(par exemple, #main)."
+
+#: includes/class-oow-pjax.php:323
+msgid "How It Works"
+msgstr "Comment ça marche"
+
+#. Author URI of the plugin
+msgid "https://oowcode.com"
+msgstr "https://oowcode.com"
+
+#: includes/class-oow-pjax.php:613
+msgid ""
+"Inject page-specific stylesheets and inline styles during PJAX navigation."
+msgstr "Injecter des feuilles de style spécifiques à la page et des styles en ligne pendant la navigation PJAX."
+
+#: includes/class-oow-pjax.php:325
+msgid "Intercepts internal link clicks and prevents full page reloads."
+msgstr ""
+"Intercepte les clics sur les liens internes et empêche le rechargement "
+"complet de la page."
+
+#: includes/class-oow-pjax.php:227
+msgid "Invalid form submission."
+msgstr "Soumission de formulaire invalide."
+
+#: includes/class-oow-pjax.php:300 includes/class-oow-pjax.php:400
+msgid "Light Mode"
+msgstr "Mode lumineux"
+
+#: includes/class-oow-pjax.php:486
+msgid "Loader CSS"
+msgstr "Chargeur CSS"
+
+#: includes/class-oow-pjax.php:487
+msgid "Minimum Loader Duration (ms)"
+msgstr "Durée minimale du chargement (ms)"
+
+#: includes/class-oow-pjax.php:601
+msgid "Minimum time the loader is visible (0 to disable)."
+msgstr ""
+"Durée minimale pendant laquelle le chargeur est visible (0 pour désactiver)."
+
+#: includes/class-oow-pjax.php:169
+msgid "No URL provided."
+msgstr "Aucune URL n'a été fournie."
+
+#: includes/class-oow-pjax.php:294
+msgid "OOW"
+msgstr "OOW"
+
+#. Name of the plugin
+#: includes/class-oow-pjax.php:262
+msgid "OOW PJAX"
+msgstr "OOW PJAX"
+
+#: includes/class-oow-pjax.php:322
+msgid ""
+"OOW PJAX enhances your WordPress site by enabling a smoother navigation "
+"experience using PushState and AJAX (PJAX). Instead of full page reloads, it "
+"dynamically updates specific content areas, making your site feel faster and "
+"more responsive."
+msgstr ""
+"OOW PJAX améliore votre site WordPress en permettant une navigation plus "
+"fluide grâce à PushState et AJAX (PJAX). Au lieu de recharger des pages "
+"entières, il met à jour dynamiquement des zones de contenu spécifiques, ce "
+"qui rend votre site plus rapide et plus réactif."
+
+#: includes/class-oow-pjax.php:261
+msgid "OOW PJAX Settings"
+msgstr "OOW PJAX Réglages"
+
+#. Author of the plugin
+msgid "oowpress"
+msgstr "oowpress"
+
+#: includes/class-oow-pjax.php:328
+msgid "Optionally caches pages to speed up subsequent visits."
+msgstr ""
+"Les pages sont éventuellement mises en cache afin d'accélérer les visites "
+"ultérieures."
+
+#: includes/class-oow-pjax.php:306
+msgid "Overview"
+msgstr "Vue d'ensemble"
+
+#: includes/class-oow-pjax.php:295
+msgid "PJAX"
+msgstr "PJAX"
+
+#: includes/class-oow-pjax.php:321
+msgid "Plugin Overview"
+msgstr "Aperçu du plugin"
+
+#: includes/class-oow-pjax.php:619
+msgid "Re-execute scripts within updated content areas."
+msgstr "Réexécuter les scripts dans les zones de contenu mises à jour."
+
+#: includes/class-oow-pjax.php:595
+msgid "Reset to Default"
+msgstr "Rétablissement des valeurs par défaut"
+
+#: includes/class-oow-pjax.php:493
+msgid "Script Priority"
+msgstr "Priorité des scripts"
+
+#: includes/class-oow-pjax.php:164 includes/class-oow-pjax.php:220
+msgid "Security check failed. Invalid nonce."
+msgstr "Échec du contrôle de sécurité. Nonce non valide."
+
+#: includes/class-oow-pjax.php:637
+msgid ""
+"Set the priority for loading oow-pjax.js in the footer. Higher values (e.g., "
+"9999) load the script later."
+msgstr ""
+"Définir la priorité pour le chargement de oow-pjax.js dans le pied de page. Des valeurs plus élevées (par exemple, 9999) chargent le script plus tard."
+
+#: includes/class-oow-pjax.php:309 includes/class-oow-pjax.php:336
+msgid "Settings"
+msgstr "Paramètres"
+
+#: includes/class-oow-pjax.php:589
+msgid "Show a loading overlay during content loading."
+msgstr "Afficher une fenêtre de chargement pendant le chargement du contenu."
+
+#: includes/class-oow-pjax.php:312
+msgid "Support"
+msgstr "Support"
+
+#: includes/class-oow-pjax.php:477
+msgid "Target Containers (space-separated)"
+msgstr "Conteneurs cibles (séparés par des espaces)"
+
+#: includes/class-oow-pjax.php:571
+msgid ""
+"Time in seconds before cached content expires (0 to disable expiration)."
+msgstr "Temps en secondes avant l'expiration du contenu mis en cache (0 pour désactiver l'expiration)."
+
+#. Description of the plugin
+#, fuzzy
+#| msgid ""
+#| "Turns a WordPress site into a PJAX (PushState + AJAX) experience without "
+#| "jQuery."
+msgid ""
+"Transforms a WordPress site into a PJAX (PushState + AJAX) experience "
+"without jQuery."
+msgstr "Transforme un site WordPress en une expérience PJAX (PushState + AJAX) sans jQuery."
+
+#: includes/class-oow-pjax.php:327
+msgid "Updates the browser URL using the History API for seamless navigation."
+msgstr ""
+"Met à jour l'URL du navigateur à l'aide de l'API Historique pour une "
+"navigation fluide."
+
+#: includes/class-oow-pjax.php:332
+msgid "View the Complete Documentation"
+msgstr "Voir la documentation complète"
+
+#: includes/class-oow-pjax.php:333
+msgid ""
+"Want to dive deeper into OOW PJAX’s features or need detailed setup guides? "
+"Visit our comprehensive documentation for tutorials, examples, and advanced "
+"tips."
+msgstr ""
+"Vous souhaitez approfondir les fonctionnalités de OOW PJAX ou avez besoin de guides de configuration détaillés ? Visitez notre documentation complète pour des tutoriels, des exemples et des conseils avancés."

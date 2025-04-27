@@ -1,0 +1,413 @@
+/* Styles de base communs */
+body {
+    background: #1e1e1e; /* Par défaut sombre */
+}
+
+.wrap {
+    margin-left: -20px !important;
+    margin-right: 0px !important;
+    margin-top: 0px !important;
+}
+
+#screen-meta {
+    display: none !important; 
+}
+
+#screen-meta-links {
+    display: none !important; 
+}
+
+/* Conteneur pour le titre et le bouton */
+.oow-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+}
+
+.oow-title > .author {
+    font-size: 13px !important;
+    text-transform: lowercase !important;
+    padding-left: 8px;
+}
+
+/* Conteneur pour les notifications */
+.oow-notices {
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+/* Styles spécifiques au thème sombre */
+body.oow-theme-dark {
+    background: #1e1e1e !important;
+}
+
+body.oow-theme-dark .wrap {
+    background: #1e1e1e;
+}
+
+body.oow-theme-dark .notice {
+    margin-top: 0 !important;
+    background: #2a2a2a;
+    color: #d4d4d4;
+    border-left: 4px solid #e0a800;
+}
+
+body.oow-theme-dark .oow-header {
+    background: #2a2a2a;
+}
+
+body.oow-theme-dark .oow-title {
+    font-family: 'Blinker', sans-serif;
+    font-size: 36px !important;
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #ffffff;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+    background: #2a2a2a;
+    margin-left: 0px !important;
+    margin-top: 0px !important;
+    margin-right: 0px !important;
+    padding-left: 20px !important;
+    margin-bottom: 0 !important;
+}
+
+body.oow-theme-dark .oow-title .text-logo {
+    font-weight: 300;
+    text-shadow: 0px 1px 1px #000000;
+    color: #ffffff;
+}
+
+body.oow-theme-dark .nav-tab-wrapper {
+    border-bottom: 1px solid #444;
+    margin-right: 20px !important;
+    margin-left: 20px !important;
+    background: #1e1e1e;
+}
+
+body.oow-theme-dark .nav-tab {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 8px 16px;
+    color: #4dabf1;
+    background: #2a2a2a;
+    border: 1px solid #444;
+    border-bottom: none;
+    margin-right: 4px;
+}
+
+body.oow-theme-dark .nav-tab-active,
+body.oow-theme-dark .nav-tab:hover {
+    background: #333;
+    color: #80c8ff;
+    border-top: 1px solid #4dabf1;
+}
+
+body.oow-theme-dark .oow-tab-content {
+    background: #2a2a2a;
+    padding: 20px;
+    border: 1px solid #444;
+    border-radius: 2px;
+    box-shadow: 0 1px 1px rgba(255, 255, 255, 0.04);
+    margin-right: 20px !important;
+    margin-left: 20px !important;
+}
+
+body.oow-theme-dark .oow-tab-content h2 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #ffffff;
+    margin: 0 0 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #555;
+}
+
+body.oow-theme-dark .oow-tab-content h3 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #d4d4d4;
+    margin: 20px 0 10px;
+}
+
+body.oow-theme-dark .oow-tab-content p {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #b0b0b0;
+    margin: 0 0 15px;
+}
+
+body.oow-theme-dark .oow-list {
+    list-style: disc outside;
+    margin: 0 0 15px 20px;
+    padding: 0;
+}
+
+body.oow-theme-dark .oow-list li {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #b0b0b0;
+    margin-bottom: 8px;
+}
+
+body.oow-theme-dark .oow-plugin-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+body.oow-theme-dark .oow-plugin-card {
+    background: #333;
+    border: 1px solid #555;
+    padding: 15px;
+    border-radius: 2px;
+}
+
+body.oow-theme-dark .oow-plugin-card h3 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    margin: 0 0 10px;
+}
+
+body.oow-theme-dark .oow-plugin-card p {
+    font-size: 14px;
+    color: #b0b0b0;
+    margin: 0 0 10px;
+}
+
+body.oow-theme-dark .oow-plugin-icon img {
+    width: 64px;
+    height: 64px;
+    border-radius: 4px;
+}
+
+body.oow-theme-dark .oow-no-icon {
+    width: 64px;
+    height: 64px;
+    background: #444;
+    border-radius: 4px;
+}
+
+body.oow-theme-dark .oow-plugin-status span {
+    color: #4dabf1;
+    font-weight: 600;
+}
+
+body.oow-theme-dark button.button-primary {
+    background: #4dabf1;
+    border-color: #3393d8;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 8px 16px;
+}
+
+body.oow-theme-dark button.button-primary:hover {
+    background: #3393d8;
+    border-color: #1e7dbb;
+}
+
+
+/* Styles spécifiques au thème clair */
+body.oow-theme-light {
+    background: #ffffff !important;
+}
+
+body.oow-theme-light .wrap {
+    background: #ffffff;
+}
+
+body.oow-theme-light .notice {
+    margin-top: 0 !important;
+    background: #f9f9f9;
+    color: #333333;
+    border-left: 4px solid #0073aa;
+}
+
+body.oow-theme-light .oow-header {
+    background: #f1f1f1;
+}
+
+body.oow-theme-light .oow-title {
+    font-family: 'Blinker', sans-serif;
+    font-size: 36px !important;
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #23282d;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+    background: #f1f1f1;
+    margin-left: 0px !important;
+    margin-top: 0px !important;
+    margin-right: 0px !important;
+    padding-left: 20px !important;
+    margin-bottom: 0 !important;
+}
+
+body.oow-theme-light .oow-title .text-logo {
+    font-weight: 300;
+    text-shadow: 0px 1px 1px #ffffff;
+    color: #000000;
+}
+
+body.oow-theme-light .nav-tab-wrapper {
+    border-bottom: 1px solid #ddd;
+    margin-right: 20px !important;
+    margin-left: 20px !important;
+    background: #ffffff;
+}
+
+body.oow-theme-light .nav-tab {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 8px 16px;
+    color: #0073aa;
+    background: #f1f1f1;
+    border: 1px solid #ddd;
+    border-bottom: none;
+    margin-right: 4px;
+}
+
+body.oow-theme-light .nav-tab-active,
+body.oow-theme-light .nav-tab:hover {
+    background: #ffffff;
+    color: #005177;
+    border-top: 1px solid #0073aa;
+}
+
+body.oow-theme-light .oow-tab-content {
+    background: #ffffff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+    margin-right: 20px !important;
+    margin-left: 20px !important;
+}
+
+body.oow-theme-light .oow-tab-content h2 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #23282d;
+    margin: 0 0 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+body.oow-theme-light .oow-tab-content h3 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #444444;
+    margin: 20px 0 10px;
+}
+
+body.oow-theme-light .oow-tab-content p {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #555555;
+    margin: 0 0 15px;
+}
+
+body.oow-theme-light .oow-list {
+    list-style: disc outside;
+    margin: 0 0 15px 20px;
+    padding: 0;
+}
+
+body.oow-theme-light .oow-list li {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #555555;
+    margin-bottom: 8px;
+}
+
+body.oow-theme-light .oow-plugin-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+body.oow-theme-light .oow-plugin-card {
+    background: #ffffff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 2px;
+}
+
+body.oow-theme-light .oow-plugin-card h3 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #23282d;
+    margin: 0 0 10px;
+}
+
+body.oow-theme-light .oow-plugin-card p {
+    font-size: 14px;
+    color: #555555;
+    margin: 0 0 10px;
+}
+
+body.oow-theme-light .oow-plugin-icon img {
+    width: 64px;
+    height: 64px;
+    border-radius: 4px;
+}
+
+body.oow-theme-light .oow-no-icon {
+    width: 64px;
+    height: 64px;
+    background: #eee;
+    border-radius: 4px;
+}
+
+body.oow-theme-light .oow-plugin-status span {
+    color: #0073aa;
+    font-weight: 600;
+}
+
+body.oow-theme-light button.button-primary {
+    background: #0073aa;
+    border-color: #006799;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 8px 16px;
+}
+
+body.oow-theme-light button.button-primary:hover {
+    background: #006799;
+    border-color: #005177;
+}
+
+/* Styles du bouton de bascule */
+.theme-toggle-btn {
+    margin-left: 20px;
+    padding: 5px 15px;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+body.oow-theme-dark .theme-toggle-btn {
+    background: #4dabf1;
+}
+
+body.oow-theme-dark .theme-toggle-btn:hover {
+    background: #3393d8;
+}
+
+body.oow-theme-light .theme-toggle-btn {
+    background: #0073aa;
+}
+
+body.oow-theme-light .theme-toggle-btn:hover {
+    background: #005177;
+}
