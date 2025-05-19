@@ -1,6 +1,8 @@
 /**
  * OOW PJAX JavaScript - Handles PJAX (PushState + AJAX) navigation with space-separated selectors and custom JS support.
  * @module OOWPJAX
+ * @credits Special thanks to @long-dotcom for identifying the btoa InvalidCharacterError issue with Unicode characters
+ *          and suggesting a safeBase64Encode solution to handle non-Latin1 characters in inline styles.
  */
 
 /**
@@ -220,7 +222,6 @@ document.addEventListener('DOMContentLoaded', function () {
     return cacheLifetime === 0 || Date.now() - timestamp < cacheLifetime;
   }
 
-
   /**
    * Extracts stylesheets (<link> and <style>) from an HTML document.
    * @param {Document} doc - HTML document to parse.
@@ -229,7 +230,7 @@ document.addEventListener('DOMContentLoaded', function () {
   function extractStylesheets(doc) {
     const stylesheets = [];
     
-    // Récupérer les balises <link rel="stylesheet">
+    // Retrieve <link rel="stylesheet"> tags
     const linkElements = doc.querySelectorAll('link[rel="stylesheet"]');
     linkElements.forEach((link) => {
       const href = link.getAttribute('href');
@@ -238,7 +239,7 @@ document.addEventListener('DOMContentLoaded', function () {
       }
     });
 
-    // Récupérer les balises <style>
+    // Retrieve <style> tags
     const styleElements = doc.querySelectorAll('style');
     styleElements.forEach((style) => {
       const css = style.textContent.trim();
@@ -249,6 +250,26 @@ document.addEventListener('DOMContentLoaded', function () {
 
     log('Stylesheets extracted:', stylesheets);
     return stylesheets;
+  }
+
+  /**
+   * Encodes a string to base64, safely handling Unicode characters.
+   * @param {string} str - String to encode.
+   * @returns {string} Base64-encoded string.
+   * @credits Inspired by @long-dotcom's suggestion to handle Unicode characters in btoa.
+   */
+  function safeBase64Encode(str) {
+    try {
+      return btoa(
+        encodeURIComponent(str).replace(/%([0-9A-F]{2})/g, (match, p1) =>
+          String.fromCharCode(parseInt(p1, 16))
+        )
+      );
+    } catch (error) {
+      log('Error during base64 encoding for stylesheet:', error.message);
+      console.error('Error during base64 encoding:', error);
+      return btoa(''); // Fallback value
+    }
   }
 
   /**
@@ -290,10 +311,12 @@ document.addEventListener('DOMContentLoaded', function () {
             if (loadedCount === totalStyles) resolve();
           }
         } else if (stylesheet.tag === 'style') {
-          if (!document.querySelector(`style[data-content="${btoa(stylesheet.content)}"]`)) {
+          // Check if style already exists using safeBase64Encode
+          const encodedContent = safeBase64Encode(stylesheet.content);
+          if (!document.querySelector(`style[data-content="${encodedContent}"]`)) {
             const style = document.createElement('style');
             style.textContent = stylesheet.content;
-            style.setAttribute('data-content', btoa(stylesheet.content));
+            style.setAttribute('data-content', encodedContent);
             document.head.appendChild(style);
             log('Inline style added');
           } else {
