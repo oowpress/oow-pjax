@@ -1,10 +1,10 @@
 === OOW PJAX ===
-Contributors: oowpress
+Contributors: oowpress, long-dotcom
 Donate link: https://profiles.wordpress.org/oowpress/
 Tags: pjax, ajax navigation, persistent player, page transition, vanilla javascript
 Requires at least: 5.0
 Tested up to: 6.8
-Stable tag: 1.4
+Stable tag: 1.5
 Requires PHP: 5.2
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -26,7 +26,7 @@ OOW PJAX is designed for WordPress sites that demand **seamless navigation** and
 - **Single-Page App (SPA) Experiences**: Create a near-SPA feel for membership sites, directories, or dashboards without heavy frameworks.
 - **Interactive Landing Pages**: Deliver immersive experiences for marketing campaigns or event sites with uninterrupted navigation.
 
-Version 1.4 enhances security with dynamic nonce refreshing, improves style management with asynchronous stylesheet handling, and refines form redirect handling, making OOW PJAX more robust for complex WordPress sites.
+Version 1.5 introduces a critical fix for handling Unicode characters (e.g., Chinese, emojis) in inline styles, preventing `InvalidCharacterError` issues with `btoa`. This update, contributed by **@long-dotcom**, ensures robust style management for multilingual and emoji-rich sites. It also enhances security with dynamic nonce refreshing, improves asynchronous stylesheet handling, and refines form redirect handling, making OOW PJAX more reliable for complex WordPress sites.
 
 ### Key Features
 
@@ -42,9 +42,10 @@ Version 1.4 enhances security with dynamic nonce refreshing, improves style mana
 - **Debug Mode**: Logs detailed information in the browser console and server logs for easy troubleshooting.
 - **Secure Implementation**: Uses dynamic nonces, sanitization, and strict validation for all settings and AJAX requests.
 - **Script Priority Control**: Customize the loading order of `oow-pjax.js` in the footer for compatibility.
-- **Dynamic Style Management**: Injects and manages page-specific stylesheets and inline styles asynchronously during PJAX transitions.
+- **Dynamic Style Management**: Injects and manages page-specific stylesheets and inline styles asynchronously, now with Unicode support.
 - **Advanced Script Execution**: Re-executes scripts in updated containers or footer, with control over inline scripts and validation.
 - **CodeMirror Integration**: Edit Custom JS with syntax highlighting and a Dracula theme.
+- **Unicode Support for Styles**: Safely handles non-Latin1 characters (e.g., Chinese, emojis) in inline styles without errors (new in 1.5).
 
 ### Who Needs OOW PJAX?
 
@@ -68,7 +69,7 @@ OOW PJAX is tailored for WordPress users who want to elevate their site’s navi
 6. **Caching**: Caches pages for instant repeat visits (disabled for logged-in users) with adjustable lifetime.
 7. **Form Handling**: Submits forms via AJAX, supporting explicit comment nonces and server-side redirects (e.g., 301, 302).
 8. **Script Management**: Re-executes scripts in updated containers or footer, with custom JS execution before/after navigation.
-9. **Style Injection**: Asynchronously injects page-specific stylesheets and inline styles for consistent rendering.
+9. **Style Injection**: Asynchronously injects page-specific stylesheets and inline styles, now with robust Unicode support.
 
 ### Getting Started
 
@@ -120,7 +121,7 @@ Yes! OOW PJAX is perfect for audio or video players. Exclude player controls (e.
 Yes. Specify your theme’s content container (e.g., `#main`, `.content`) in **Target Containers**. Check your theme’s source code for the correct selector.
 
 = Does it support AJAX form submissions? =
-Yes, enable **Enable Form Handling** to submit forms (e.g., comments, login, contact) via AJAX. Version 1.4 enhances this with explicit comment nonce support, dynamic nonce refreshing, and robust redirect handling (e.g., 301, 302).
+Yes, enable **Enable Form Handling** to submit forms (e.g., comments, login, contact) via AJAX. Version 1.5 enhances this with explicit comment nonce support, dynamic nonce refreshing, and robust redirect handling (e.g., 301, 302).
 
 = How do I style the loading animation? =
 Edit **Loader CSS** in the **Settings** tab to customize the loading overlay. Use **Reset to Default** to revert to the default spinner.
@@ -140,13 +141,13 @@ No, OOW PJAX uses vanilla JavaScript for a lightweight, modern approach.
 = Can I add custom JavaScript? =
 Yes, use the **Custom JS** tab to add JavaScript before or after PJAX navigation with CodeMirror’s syntax highlighting.
 
-= How does version 1.4 improve form handling? =
-Version 1.4 builds on version 1.3 by adding dynamic nonce refreshing for form submissions and improved redirect handling, ensuring compatibility with complex forms and reducing nonce expiration errors.
+= How does version 1.5 improve style handling? =
+Version 1.5 adds support for Unicode characters (e.g., Chinese, emojis) in inline styles, fixing `InvalidCharacterError` issues with `btoa`. Thanks to @long-dotcom for the contribution.
 
 = How does OOW PJAX handle page-specific styles? =
-Version 1.4 introduces asynchronous stylesheet management, extracting and applying `<link>` and `<style>` tags during PJAX transitions to ensure consistent rendering without duplicates.
+Version 1.5 enhances asynchronous stylesheet management, extracting and applying `<link>` and `<style>` tags during PJAX transitions, with full Unicode support for consistent rendering.
 
-= Why are nonces refreshed dynamically in version 1.4? =
+= Why are nonces refreshed dynamically? =
 Dynamic nonce refreshing prevents errors from expired nonces during long sessions or high-traffic scenarios, enhancing security and reliability for AJAX requests.
 
 == Screenshots ==
@@ -158,6 +159,11 @@ Dynamic nonce refreshing prevents errors from expired nonces during long session
 5. **Persistent Media Player**: Example of a sticky audio player staying active during navigation.
 
 == Changelog ==
+
+= 1.5 =
+* **Fixed**: `InvalidCharacterError` in `btoa` when handling Unicode characters (e.g., Chinese, emojis) in inline styles by adding `safeBase64Encode` function. Credits to @long-dotcom for identifying the issue and suggesting a solution.
+* **Improved**: Enhanced `applyStylesheetsAsync` to use `safeBase64Encode` for robust style management with non-Latin1 characters.
+* **Fixed**: Minor JSDoc typo in `isCacheValid` for improved documentation clarity.
 
 = 1.4 =
 * **Added**: Dynamic nonce refreshing via AJAX (`refreshNonce` and `refresh_nonce`) for enhanced security and reliability.
@@ -207,6 +213,9 @@ Dynamic nonce refreshing prevents errors from expired nonces during long session
 * Initial release with seamless PJAX navigation, persistent element support, customizable loader, content caching, AJAX form handling, and debug mode.
 
 == Upgrade Notice ==
+
+= 1.5 =
+Upgrade to version 1.5 for robust Unicode support in inline styles, fixing `InvalidCharacterError` with `btoa`. This update, contributed by @long-dotcom, enhances compatibility with multilingual and emoji-rich sites, alongside improved style management. Recommended for all users.
 
 = 1.4 =
 Upgrade to version 1.4 for dynamic nonce refreshing, asynchronous stylesheet management, and improved form redirect handling. This update enhances security, compatibility with dynamic styles, and debugging capabilities. Recommended for all users.
